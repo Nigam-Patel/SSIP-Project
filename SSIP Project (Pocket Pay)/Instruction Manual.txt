@@ -1,0 +1,12 @@
+Instruction Manual for Pocket-Pay
+
+1) Setup two database servers (database in MySql)
+ --> Server One is for Store database and install webservice(myservice in webservice folder)
+ --> Server Two is for App database(pocketpay in webservice folder)
+
+2) Open the application in Android Studio (API level 25)
+
+3) Configure PocketPay with IP(i.e. include the IP of the server in build.gradle file of your Android project)
+
+NOTE: You need an SMS API for sending SMS OTP for mobile number verification
+4) Run the application
